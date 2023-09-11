@@ -26,6 +26,7 @@ const nextConfig = {
   },
   experimental: {
     outputFileTracingRoot: join(__dirname, '../../'),
+    proxyTimeout: 120000
   },
   headers: async () => {
     return [
